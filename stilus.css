@@ -1,17 +1,46 @@
 .cegenkrul{
     color: rgb(3, 141, 95);
 background-color: gray;
+border: 1px solid gray;
+border-radius: 30px;
 }
 
 header{
     color: white;
     background-color: green;
+    grid-area: h;
 }
 
 nav{
     background-color: green;
+grid-area: n;
 }
 
 nav a{
     color: white;
 }
+
+img{
+    border-radius: 30px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+     " h h h"
+     "n n n"
+     "ar as as";
+}
+
+aside{
+    border: 1px solid black;
+    grid-area: as;
+
+}
+
+article{
+    border: 1px solid black;
+    grid-area: ar;
+}
+
