@@ -1,46 +1,48 @@
-.cegenkrul{
-    color: rgb(3, 141, 95);
-background-color: gray;
-border: 1px solid gray;
-border-radius: 30px;
+.cegenkrul {
+  color: rgb(3, 141, 95);
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 30px;
 }
 
-header{
-    color: white;
-    background-color: green;
-    grid-area: h;
+header {
+  color: white;
+  background-color: rgb(8, 161, 110);
+  grid-area: h;
+text-align: center;
 }
 
-nav{
-    background-color: green;
-grid-area: n;
+nav {
+  background-color: rgb(5, 90, 62);
+  grid-area: n;
 }
 
-nav a{
-    color: white;
+nav a {
+  color: white;
 }
 
 img{
-    border-radius: 30px;
+  border-radius: 30px;
+  width: 100%;
 }
 
-main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-     " h h h"
-     "n n n"
-     "ar as as";
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    " h h h"
+    "n n n"
+    "ar as as";
 }
 
-aside{
-    border: 1px solid black;
-    grid-area: as;
-
+aside {
+  border: 1px solid white;
+  grid-area: as;
+  border-radius: 30px;
 }
 
-article{
-    border: 1px solid black;
-    grid-area: ar;
+article {
+  border: 1px solid white;
+  grid-area: ar;
+  border-radius: 30px;
 }
-
