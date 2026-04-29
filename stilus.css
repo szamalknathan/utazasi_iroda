@@ -33,7 +33,7 @@ main {
     " h h h"
     "n n n"
     "ar as as";
-}
+  }
 
 aside {
   border: 1px solid white;
@@ -46,3 +46,4 @@ article {
   grid-area: ar;
   border-radius: 30px;
 }
+
